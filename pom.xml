@@ -5,8 +5,13 @@
   <version>1.0</version>
   <name>calculaprueba</name>
   <properties>
+<<<<<<< HEAD
   <maven.compiler.source>1.8</maven.compiler.source>
   <maven.compiler.target>1.8</maven.compiler.target>
+=======
+  	<maven.compiler.source>1.8</maven.compiler.source>
+  	<maven.compiler.target>1.8</maven.compiler.target>
+>>>>>>> ac954ae628609375504ee3148d8a95fcb225012b
   </properties>
   <dependencies>
   	<dependency>
