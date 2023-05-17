@@ -1,11 +1,12 @@
 package calculaprueba;
 
+import static org.junit.Assert.*;
+
 import org.junit.Test;
-import static org.junit.Assert.assertEquals;
 
 public class CalculadoraTest {
-    
-    @Test
+	
+	@Test
     public void testSumar() {
         Calculadora calculadora = new Calculadora();
         int resultado = calculadora.sumar(2, 3);
@@ -38,4 +39,19 @@ public class CalculadoraTest {
         Calculadora calculadora = new Calculadora();
         calculadora.dividir(10, 0);
     }
+    
+  //@Test
+    //public void testCuadradoNum() {
+	//    Calculadora calculadora = new Calculadora();
+	//    double resultado = calculadora.cuadradoNum(4);
+	//    assertEquals(16, resultado);
+	//}
+			
+	//@Test
+	//public void testCuboNum() {
+	//    Calculadora calculadora = new Calculadora();
+	//    double resultado = calculadora.cuboNum(9);
+	//    assertEquals(729, resultado);
+	//}
+   
 }

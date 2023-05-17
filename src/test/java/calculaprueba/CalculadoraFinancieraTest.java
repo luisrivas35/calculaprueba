@@ -1,10 +1,12 @@
 package calculaprueba;
+
+import static org.junit.Assert.*;
+
 import org.junit.Test;
-import static org.junit.Assert.assertEquals;
 
 public class CalculadoraFinancieraTest {
-    
-    @Test
+
+	@Test
     public void testCalcularInteresSimple() {
         CalculadoraFinanciera calculadoraFinanciera = new CalculadoraFinanciera();
         double resultado = calculadoraFinanciera.calcularInteresSimple(1000, 0.05, 2);
@@ -31,7 +33,5 @@ public class CalculadoraFinancieraTest {
         double resultado = calculadoraFinanciera.calcularTasaEfectiva(0.1, 12);
         assertEquals(0.10471, resultado, 0.00001);
     }
-    
-    // Agrega más pruebas para otros métodos y casos de la CalculadoraFinanciera
-}
 
+}

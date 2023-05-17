@@ -1,7 +1,7 @@
 package calculaprueba;
 
 public class CalculadoraFinanciera {
-    public double calcularInteresSimple(double capital, double tasa, int periodo) {
+	public double calcularInteresSimple(double capital, double tasa, int periodo) {
         return capital * tasa * periodo;
     }
     
@@ -18,6 +18,5 @@ public class CalculadoraFinanciera {
         double tasaEfectiva = Math.pow((1 + tasaNominal / frecuencia), frecuencia) - 1;
         return tasaEfectiva;
     }
-    
-    // Otros métodos y funcionalidades de la calculadora financiera
+
 }
